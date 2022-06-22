@@ -1,0 +1,5 @@
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\bin\Debug\ProjectThree.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\bin\Debug\ProjectThree.pdb
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\obj\Debug\ProjectThree.csprojResolveAssemblyReference.cache
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\obj\Debug\ProjectThree.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\obj\Debug\ProjectThree.pdb

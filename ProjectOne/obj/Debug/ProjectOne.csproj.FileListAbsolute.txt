@@ -1,0 +1,5 @@
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\bin\Debug\ProjectOne.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\bin\Debug\ProjectOne.pdb
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\obj\Debug\ProjectOne.csprojResolveAssemblyReference.cache
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\obj\Debug\ProjectOne.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\obj\Debug\ProjectOne.pdb

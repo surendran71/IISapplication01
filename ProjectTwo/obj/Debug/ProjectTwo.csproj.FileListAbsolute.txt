@@ -1,0 +1,5 @@
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\bin\Debug\ProjectTwo.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\bin\Debug\ProjectTwo.pdb
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\obj\Debug\ProjectTwo.csprojResolveAssemblyReference.cache
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\obj\Debug\ProjectTwo.dll
+C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\obj\Debug\ProjectTwo.pdb

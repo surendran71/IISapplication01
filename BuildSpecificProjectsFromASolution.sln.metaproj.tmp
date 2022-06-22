@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" InitialTargets="ValidateSolutionConfiguration;ValidateToolsVersions;ValidateProjects">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportBefore')" />
+  <Import Project="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\before.BuildSpecificProjectsFromASolution.sln.targets" Condition="exists('C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\before.BuildSpecificProjectsFromASolution.sln.targets')" />
+  <PropertyGroup Condition=" '$(Configuration)' == '' ">
+    <Configuration>Debug</Configuration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == '' ">
+    <Platform>Any CPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(AspNetConfiguration)' == '') ">
+    <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionDir>C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\</SolutionDir>
+    <SolutionExt>.sln</SolutionExt>
+    <SolutionFileName>BuildSpecificProjectsFromASolution.sln</SolutionFileName>
+    <SolutionName>BuildSpecificProjectsFromASolution</SolutionName>
+    <SolutionPath>C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\BuildSpecificProjectsFromASolution.sln</SolutionPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and ('$(MSBuildToolsVersion)' == '3.5' or '$(MSBuildToolsVersion)' == '3.0')">v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '4.0'">v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Debug') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{4D6907D2-92D1-4373-BA74-2467F6616710}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\ProjectOne.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{1D799C6D-4D3C-4D33-AA8A-D80B2994BA70}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\ProjectTwo.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AAC3833F-5BAC-4C19-B5DB-5F562B8B69F0}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\ProjectThree.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{14206417-353B-4A38-BCBF-781750A4EA0C}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectFour\ProjectFour.csproj" BuildProjectInSolution="True">Debug|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <PropertyGroup Condition=" ('$(Configuration)' == 'Release') and ('$(Platform)' == 'Any CPU') ">
+    <CurrentSolutionConfigurationContents>
+      <SolutionConfiguration xmlns="">
+  <ProjectConfiguration Project="{4D6907D2-92D1-4373-BA74-2467F6616710}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectOne\ProjectOne.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{1D799C6D-4D3C-4D33-AA8A-D80B2994BA70}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectTwo\ProjectTwo.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{AAC3833F-5BAC-4C19-B5DB-5F562B8B69F0}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectThree\ProjectThree.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+  <ProjectConfiguration Project="{14206417-353B-4A38-BCBF-781750A4EA0C}" AbsolutePath="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\ProjectFour\ProjectFour.csproj" BuildProjectInSolution="True">Release|AnyCPU</ProjectConfiguration>
+</SolutionConfiguration>
+    </CurrentSolutionConfigurationContents>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter\*" Condition="'$(ImportByWildcardBeforeSolution)' != 'false' and exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\SolutionFile\ImportAfter')" />
+  <Import Project="C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\after.BuildSpecificProjectsFromASolution.sln.targets" Condition="exists('C:\Users\trifonov\Documents\Visual Studio 2012\Projects\MSBuild\BuildSpecificProjectsFromASolution\after.BuildSpecificProjectsFromASolution.sln.targets')" />
+  <Target Name="Build" />
+  <Target Name="Rebuild" />
+  <Target Name="Clean" />
+  <Target Name="Publish" />
+</Project>
