@@ -9,7 +9,7 @@ foreach ($com in $ComputerName)
 {
 ##Stop IIS website
 ##Stop-Website -Name "IIS_application"
-Stop-WebAppPool -Name "IIS_application"
+##Stop-WebAppPool -Name "IIS_application"
 
 ##Backup the current application build
 $backupcurrentbuild = "\\" + $com + "\$applicationpath\"
@@ -31,5 +31,5 @@ Copy-Item -Path $deploylatsetbuildFrom -Destination $deploylatsetbuildTo -Recurs
 
 ##Stop IIS website
 ##Start-Website -Name "IIS_application"
-Stop-WebAppPool -Name "IIS_application"
+##Stop-WebAppPool -Name "IIS_application"
 }
