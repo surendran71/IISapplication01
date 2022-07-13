@@ -8,7 +8,8 @@ $nwa = "IIS_application-"
 foreach ($com in $ComputerName)
 {
 ##Stop IIS website
-Stop-Website -Name "IIS_application"
+##Stop-Website -Name "IIS_application"
+Stop-WebAppPool -Name "IIS_application"
 
 ##Backup the current application build
 $backupcurrentbuild = "\\" + $com + "\$applicationpath\"
@@ -29,6 +30,6 @@ $deploylatsetbuildTo = "\\" + $com + "\$applicationpath\"
 Copy-Item -Path $deploylatsetbuildFrom -Destination $deploylatsetbuildTo -Recurse -Force
 
 ##Stop IIS website
-Start-Website -Name "IIS_application"
-
+##Start-Website -Name "IIS_application"
+Stop-WebAppPool -Name "IIS_application"
 }
